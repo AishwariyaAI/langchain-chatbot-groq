@@ -1,4 +1,6 @@
-streamlit
-python-dotenv
-langchain
-langchain-groq
+streamlit==1.45.1
+python-dotenv==1.1.1
+langchain==0.3.26
+langchain-core==0.3.68
+langchain-groq==0.3.7
+groq==0.31.0
