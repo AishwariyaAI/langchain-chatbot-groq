@@ -4,9 +4,11 @@ A simple AI chatbot built using LangChain, Groq API, and Streamlit.
 
 ## 🚀 Deployment (Render)
 
-## 🌐 Live Demo
+## 🚀 Live Demo
 
-🔗 **Try the application here:** https://langchain-chatbot-groq.onrender.com
+🚧 **Coming Soon**
+
+The application is currently under active development and testing. A public deployment will be available after completing additional LangChain features and stability improvements.
 
 ---
 
