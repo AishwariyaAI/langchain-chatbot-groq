@@ -2,6 +2,50 @@
 
 A simple AI chatbot built using LangChain, Groq API, and Streamlit.
 
+## 🚀 Deployment (Render)
+
+## 🌐 Live Demo
+
+🔗 **Try the application here:** https://langchain-chatbot-groq.onrender.com
+
+---
+
+### Python Version
+
+This project is developed and tested with **Python 3.11**.
+
+You can specify the Python version by creating a `runtime.txt` file:
+
+```text
+python-3.11.9
+```
+
+Or set the Python version in Render if required.
+
+---
+
+### Environment Variables
+
+Before running the application, configure the following environment variable in the Render Dashboard:
+
+| Variable | Description |
+|----------|-------------|
+| `GROQ_API_KEY` | Your Groq API key for accessing the Llama model. |
+
+Example:
+
+```text
+GROQ_API_KEY=your_groq_api_key
+```
+
+---
+
+### Start Command
+
+```bash
+streamlit run chatbot/app.py --server.port $PORT --server.address 0.0.0.0
+```
+
 ## 🚀 Features
 
 - Chat with Llama 3 models using Groq
